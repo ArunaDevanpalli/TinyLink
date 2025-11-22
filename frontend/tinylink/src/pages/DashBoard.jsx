@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function DashBoard() {
-  const API = "https://tiny-link-brown-seven.vercel.app";
+  const API = "http://localhost:3001";
 
   const [links, setLinks] = useState([]);
   const [url, setUrl] = useState("");
